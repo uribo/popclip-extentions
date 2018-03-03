@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Description</key>
+    <string>Send the selected string to RStudio console.</string>
+  <key>Extension Identifier</key>
+    <string>com.uribo.popclip.extension.rstudiorun</string>
+  <key>Extension Name</key>
+    <string>RStudioRun</string>
+  <key>Required Software Version</key>
+    <integer>701</integer>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>RStudioRun.applescript</string>
+			<key>Title</key>
+			<string>RStudioRun</string>
+			<key>Image File</key>
+			<string>RStudioIcon.png</string>
+			<key>Before</key>
+			<string>copy</string>
+			<key>After</key>
+			<string>paste</string>
+			<key>Long Running</key>
+			<true/>
+		</dict>
+	</array>
+  <key>Apps</key>
+    <array>
+        <dict>
+            <key>Bundle Identifier</key>
+            <string>org.rstudio.RStudio</string>
+            <key>Check Installed</key>
+            <true/>
+            <key>Link</key>
+            <string>https://www.rstudio.com/</string>
+            <key>Name</key>
+            <string>RStudio</string>
+        </dict>
+    </array>
+</dict>
+</plist>

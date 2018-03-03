@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Identifier</key>
+	<string>com.uribo.popclip.extension.searchcran</string>
+	<key>Extension Name</key>
+	<string>searchcran</string>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Search the package on CRAN</string>
+	</dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>searchcran</string>
+			<key>Image File</key>
+			<string>searchcran.png</string>
+			<key>URL</key>
+			<string>https://cran.r-project.org/web/packages/{popclip text}/index.html</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://cran.r-project.org/</string>
+			<key>Name</key>
+			<string>cran.r-project.org</string>
+		</dict>
+	</array>
+</dict>
+</plist>

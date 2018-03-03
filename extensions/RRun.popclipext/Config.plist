@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Description</key>
+		<string>Run R script.</string>
+	<key>Extension Identifier</key>
+		<string>com.uribo.popclip.extension.rrun</string>
+	<key>Extension Name</key>
+		<string>RRun</string>
+	<key>Required Software Version</key>
+	  <integer>701</integer>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>RRun.applescript</string>
+			<key>Title</key>
+			<string>RRun</string>
+			<key>Image File</key>
+			<string>RIcon.png</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+    <array>
+        <dict>
+            <key>Bundle Identifier</key>
+            <string>org.R-project.R</string>
+            <key>Check Installed</key>
+            <true/>
+            <key>Link</key>
+            <string>http://cran.r-project.org/</string>
+            <key>Name</key>
+            <string>R</string>
+        </dict>
+    </array>
+</dict>
+</plist>
