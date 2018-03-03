@@ -28,7 +28,7 @@ welcome your contribution :)
 
 #### Execute in RStudio Console
 
-![](source/rstudiorun/rstudiorun-demo.gif)
+![](source/RStudioRun/rstudiorun-demo.gif)
 
 ---
 
