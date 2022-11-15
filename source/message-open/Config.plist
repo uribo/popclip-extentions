@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Identifier</key>
+	<string>com.uribo.popclip.extension.messageopen</string>
+	<key>Extension Name</key>
+	<string>messageopen</string>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Open mail via message id</string>
+	</dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Open message</string>
+			<key>Image File</key>
+			<string>messageopen.png</string>
+			<key>URL</key>
+			<string>message:{popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
